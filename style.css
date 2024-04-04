@@ -1,0 +1,58 @@
+body{
+    
+    margin: 10%;
+        max-width: 1000px; /* Adjust as per your requirement */
+    margin-top: 10%; /* Center the body horizontally */
+        padding: 20px; /* Add padding to create space between content and boundary */
+       
+        border: 3px solid #000; /* Border styling */
+      box-sizing: border-box; /* Include padding and border in the width calculation */
+    
+}
+title{
+    text-align: right;
+            text-shadow: 5px 5px 10px white;
+            font-size: 7vh;
+}
+.image {
+
+    width:90%;
+    height:90%;
+      border-radius:4px;
+}
+
+
+h4{
+text-align: start;
+}
+.quote-container {
+    border-left: 4px solid #333;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.quote-text {
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: start; 
+     margin-top: 10px;
+}
+.boundary {
+    /* Set the boundary dimensions */
+    max-width: 1000px; /* Adjust this value as needed */
+    margin: 0 auto; /* Center the boundary horizontally */
+    padding: 30px; /* Optional: Add padding inside the boundary */
+    background-color: rgb(161, 161, 223);
+  }
+  
+  .document {
+    /* Adjust the width of the document */
+    max-width: 100%; /* Allow the document to shrink to fit the boundary */
+    /* Add any other styles for your document */
+    padding: 20px;
+  }
+  
+
